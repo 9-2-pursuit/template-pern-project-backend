@@ -5,32 +5,12 @@
 
 ## Getting Started
 
-### Project Structure
-
-```
-├── README.md (what you are currently reading)
-├── back-end (a basic express app)
-├── front-end (a basic create-react-app)
-└── package.json (necessary boilerplate for heroku deployment )
-```
-
-**NOTE:** - You will have 3 `package.json` files in this project
-
-- **Top level** - necessary for heroku deployment: you don't need to do anything with this file, it is set up for you
-- **back-end** - everything to do with the express/postgres backend
-- **front-end** - everything to do with the create-react-app front-end
-
-### `back-end` Set Up and Deployment to Heroku
-
 #### Basic App
 
-**/back-end**
-
-- `cd back-end`
 - `npm install`
 - `touch .env`
 
-make sure you are on the same level as the `package.json` of the `back-end` directory
+make sure you are on the same level as the `package.json`
 
 - `touch .env`
 
